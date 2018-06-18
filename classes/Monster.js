@@ -1,5 +1,5 @@
 "use strict";
-function Monster(name, health, isAlive, classification) {
+function Monster(name, classification, health, isAlive,) {
     LivingThing.call(this, name, health, isAlive)
     this.classification = classification;
 }
